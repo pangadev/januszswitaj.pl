@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5,
   margin: 20px;
   padding: 25px;
 }
+
 body:after {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
@@ -270,6 +271,7 @@ body:after {
 
 /* Navbar */
 .site-navbar {
+  padding-top: 10px;
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
@@ -543,6 +545,11 @@ body:after {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-logo a {
     color: #fff; }
+  .sticky-wrapper .site-navbar .logo-strony {
+    width: 100px;
+    vertical-align: none;
+    content:url("www.januszswitaj.pl/images/logos/biale2.svg");
+  }
   .sticky-wrapper .site-navbar .site-menu > li > a {
     color: rgba(255, 255, 255, 0.7) !important; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
@@ -556,13 +563,18 @@ body:after {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #000; }
+    .sticky-wrapper.is-sticky .site-navbar .logo-strony {
+      width: 100px;
+      vertical-align: none;
+      content:url("www.januszswitaj.pl/images/logos/czarne2.svg");
+    }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important;
       padding: 20px 20px; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
         color: #88BDBC !important; }
   .sticky-wrapper .shrink {
-    padding-top: 0px !important;
+    padding-top: 10px !important;
     padding-bottom: 0px !important; }
 
 /* Blocks */

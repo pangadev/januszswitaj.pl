@@ -546,14 +546,15 @@ body:after {
   .sticky-wrapper .site-navbar .site-logo a {
     color: #fff; }
   .sticky-wrapper .site-navbar .logo-strony {
-    width: 100px;
-    vertical-align: none;
-    content:url("https://januszswitaj.pl/images/logos/biale2.svg");
+    width: 90px;
+    vertical-align: middle;
   }
   .sticky-wrapper .site-navbar .site-menu > li > a {
     color: rgba(255, 255, 255, 0.7) !important; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-      color: #fff !important; }
+      color: #fff !important;
+      padding: 30px, 20px;
+    }
   .sticky-wrapper.is-sticky .site-navbar {
     background: #fff;
     border-bottom: 1px solid transparent;
@@ -564,9 +565,10 @@ body:after {
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .logo-strony {
-      width: 100px;
-      vertical-align: none;
-      content:url("https://januszswitaj.pl/images/logos/czarne2.svg");
+      width: 50px;
+      vertical-align: middle;
+      padding: 30px, 20px;
+
     }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important;

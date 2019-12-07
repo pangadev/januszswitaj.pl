@@ -545,9 +545,11 @@ body:after {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-logo a {
     color: #fff; }
-  .sticky-wrapper .site-navbar .logo-strony {
-    width: 90px;
-    vertical-align: middle;
+    .sticky-wrapper.is-sticky .site-navbar .logo-strony-white {
+      display: inline-block;
+    }
+  .sticky-wrapper .site-navbar .logo-strony-black {
+    display: none
   }
   .sticky-wrapper .site-navbar .site-menu > li > a {
     color: rgba(255, 255, 255, 0.7) !important; }
@@ -564,11 +566,11 @@ body:after {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #000; }
-    .sticky-wrapper.is-sticky .site-navbar .logo-strony {
-      width: 50px;
-      vertical-align: middle;
-      padding: 30px, 20px;
-
+    .sticky-wrapper.is-sticky .site-navbar .logo-strony-white {
+    display: none;
+    }
+    .sticky-wrapper.is-sticky .site-navbar .logo-strony-black {
+      display: inline-block;
     }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important;
